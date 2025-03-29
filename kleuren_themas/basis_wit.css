@@ -1,0 +1,17 @@
+
+:root {
+    --primary: #dddddd;
+    --secondary: #eeeeee;
+    --background: #ffffff;
+    --highlight: #61876E;
+    --text: #000000;
+    --textbox: #eeeeee;
+}
+
+header {
+    background-image: url(../afbeeldingen/kaders/kader_groen.png), linear-gradient(var(--secondary), var(--background));
+}
+
+.grids > div {
+    background-image: url(../afbeeldingen/kaders/kader_groen.png);
+}

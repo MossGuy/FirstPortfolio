@@ -1,0 +1,17 @@
+:root {
+    --primary: #FF6666;
+    --secondary: #FF8989;
+    --background: #FCAEAE;
+    --highlight: #FFEADD;
+    --text: #000000;
+    --textbox: #ffffff;
+}
+
+
+header {
+    background-image: url(../afbeeldingen/kaders/kader_beige.png), linear-gradient(var(--secondary), var(--background));
+}
+
+.grids > div {
+    background-image: url(../afbeeldingen/kaders/kader_beige.png);
+}

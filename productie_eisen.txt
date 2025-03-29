@@ -1,0 +1,81 @@
+*-----------*
+User stories:
+  * Als gebruiker wil ik begroet worden met een inleiding zodat de gebruiker gelijk kan zien wie
+  de website gemaakt heeft
+  * Als gebruiker wil ik het kleuren thema kunnen veranderen omdat iedereen net een andere voorkeur kan hebben
+  en het een leuk interactie element toevoegt
+  * Als gebruiker wil ik contact maken met de maker van de website via een afzonderlijke email zodat ik
+  feedback kan ontvangen
+  * Als web developer wil ik dat mijn website responsief is zodat de website er professioneel uit blijft zien
+  op iedere scherm resolutie
+  * Als gebruiker wil ik kunnen zien wat de maker van de website kan doen (doormiddel van tekst
+  en gebruikte technieken in de website) zodat de gebruiker een beter inzicht krijgt van mij
+
+  * Als werkgever wil ik in kunnen loggen zodat alleen ik gevoelige gegevens kan lezen over de maker van de website
+  * Als werkgever wil ik weer uit kunnen loggen omdat uitloggen in samenwerking gaat met inloggen
+
+*--------------------------*
+Talen die ik moet gebruiken:
+  * HTML
+  * CSS
+  * PHP
+  * SQL
+  * Bootstrap 5
+  * Javascript
+
+*---------*
+Persoonlijk
+  Open:
+    * Wie ben ik
+    * Wat kan ik
+
+    * hobbies
+    * lievelings series
+
+  Professioneel:
+  *uitgebreid profiel:
+    competenties
+    sterktes / zwaktes
+    Leerstijl / leervoorkeur
+    Wat voor persoon ben ik
+    CV
+    Diploma's
+    Certificaten
+    POP / PAP
+
+    Enneagram
+    https://enneagram-personality.com/nl/657c2dcc-2360-43cc-b080-4cfa95ca4579
+    DISC profiel
+
+*--------------------*
+Algemene website eisen
+  * Inleiding
+  * Persoonlijk deel: open en Professioneel
+  * ! *  Contact formulier (persoonlijke en dev email)
+  * Inlogmodule
+  * responsive lay-out
+
+  * Correcte file structuur
+  * Taal (Nederlands / Engels?)
+
+  * CSS variabelen voor kleuren
+  * Loops ...?
+  * Arrays
+  * ! * Datum
+
+*-------------------------------------*
+Bootstrap elementen om te implementeren
+  * general web lay-out:
+    Containers (responsive)
+    Navbar collapse en dropdown
+    icons
+
+  * IDK where yet:
+    Tabellen
+    Box modifier
+    CSS Colums / Flexbox
+    Cards
+    Badges / Labels
+    Toasts
+    Modals
+    Accordions

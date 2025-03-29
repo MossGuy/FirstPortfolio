@@ -1,0 +1,16 @@
+:root {
+    --primary: #000000;
+    --secondary: #222222;
+    --background: #151515;
+    --highlight: #e47b41;
+    --text: #ffffff;
+    --textbox: #ffffff;
+}
+
+header {
+    background-image: url(../afbeeldingen/kaders/kader_oranje.png), linear-gradient(var(--secondary), var(--background));
+}
+
+.grids > div {
+    background-image: url(../afbeeldingen/kaders/kader_oranje.png);
+}
