@@ -8,9 +8,9 @@
 }
 
 header {
-    background-image: url(../afbeeldingen/kaders/kader_lichtgeel.png), linear-gradient(var(--secondary), var(--background));
+    background-image: url(../../afbeeldingen/kaders/kader_lichtgeel.png), linear-gradient(var(--secondary), var(--background));
 }
 
 .grids > div {
-    background-image: url(../afbeeldingen/kaders/kader_lichtgeel.png);
+    background-image: url(../../afbeeldingen/kaders/kader_lichtgeel.png);
 }

@@ -9,9 +9,9 @@
 
 
 header {
-    background-image: url(../afbeeldingen/kaders/kader_beige.png), linear-gradient(var(--secondary), var(--background));
+    background-image: url(../../afbeeldingen/kaders/kader_beige.png), linear-gradient(var(--secondary), var(--background));
 }
 
 .grids > div {
-    background-image: url(../afbeeldingen/kaders/kader_beige.png);
+    background-image: url(../../afbeeldingen/kaders/kader_beige.png);
 }
