@@ -5,6 +5,8 @@ $host = '127.0.0.1';
 $db   = 'database_le_portfolio';
 $user = 'bit_academy';
 $pass = 'bit_academy';
+// $user = 'root';
+// $pass = '';
 $charset = 'utf8mb4';
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
