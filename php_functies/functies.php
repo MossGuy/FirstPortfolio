@@ -31,19 +31,19 @@ function link_kleurenthema()
         $kleur = $_SESSION['kleur_thema'];
         switch ($kleur) {
             case "wit":
-                return '<link rel="stylesheet" href="./kleuren_themas/basis_wit.css">';
+                return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/basis_wit.css">';
             case "zwart":
-                return '<link rel="stylesheet" href="./kleuren_themas/nacht_zwart.css">';
+                return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/nacht_zwart.css">';
             case "roze":
-                return '<link rel="stylesheet" href="./kleuren_themas/perzik_roze.css">';
+                return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/perzik_roze.css">';
             case "groen":
-                return '<link rel="stylesheet" href="./kleuren_themas/moss_groen.css">';
+                return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/moss_groen.css">';
             case "blauw":
-                return '<link rel="stylesheet" href="./kleuren_themas/marine_blauw.css">';
+                return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/marine_blauw.css">';
             default:
         }
     } else {
-        return '<link rel="stylesheet" href="./kleuren_themas/basis_wit.css">';
+        return '<link rel="stylesheet" href="./stylesheets/kleuren_themas/basis_wit.css">';
     }
 }
 function return_login_button()

@@ -32,7 +32,7 @@ check_session();
     <script src="./bootstrap5/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="./bootstrap5/bootstrap-icons-1.11.1/bootstrap-icons.css">
     <!-- stylesheet links -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
     <?PHP echo link_kleurenthema(); ?>
     <title>Mijn web portfolio</title>
 </head>
