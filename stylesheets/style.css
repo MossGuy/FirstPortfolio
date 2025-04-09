@@ -1,8 +1,23 @@
- /*                            */
-/* Algemene website elementen */
+ /*                    */
+/* algemene_elementen */
 @font-face {
     font-family: coolFont;
     src: url(../fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--secondary); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--highlight); 
 }
 
 body {
@@ -11,6 +26,7 @@ body {
     background-color: var(--background);
 }
 
+/* scemantics */
 h1 {
     font-weight: bold;
     color: var(--highlight);
@@ -33,10 +49,6 @@ p {
     color: var(--text);
 }
 
-.highlight {
-    color: var(--highlight);
-}
-
 a {
     width: fit-content;
     display: block;
@@ -55,32 +67,43 @@ li {
     color: var(--text);
 }
 
-.icon {
-    color: var(--text);
-    border-color: var(--highlight);
-}
-
 select {
     width: 8rem;
 }
 
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background: var(--secondary); 
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: var(--highlight); 
-}
-
+/* universele_classes */
 .a {
     height: 100vh;
+}
+
+.button_css {
+    background-color: var(--secondary);
+    border-color: var(--highlight);
+    color: var(--highlight);
+    border-style: solid;
+    transition: 0.2s;
+}
+.button_css:hover {
+    background-color: var(--primary);
+}
+.button_css_reverse {
+    background-color: var(--primary);
+    border-color: var(--highlight);
+    color: var(--highlight);
+    border-style: solid;
+    transition: 0.2s;
+}
+.button_css_reverse:hover {
+    background-color: var(--secondary);
+}
+
+.highlight {
+    color: var(--highlight);
+}
+
+.icon {
+    color: var(--text);
+    border-color: var(--highlight);
 }
 
 .alert {
@@ -196,6 +219,8 @@ footer {
     margin: 0%;
 }
 
+
+
  /*                     */
 /* database_error.php */
 #database_error {
@@ -236,30 +261,6 @@ header {
     background-size: cover;
     box-shadow: 0 4px 2px 0.2px #000000;
     
-}
-
-.button_css {
-    background-color: var(--secondary);
-    border-color: var(--highlight);
-    color: var(--highlight);
-    border-style: solid;
-    transition: 0.2s;
-}
-
-.button_css:hover {
-    background-color: var(--primary);
-}
-
-.button_css_reverse {
-    background-color: var(--primary);
-    border-color: var(--highlight);
-    color: var(--highlight);
-    border-style: solid;
-    transition: 0.2s;
-}
-
-.button_css_reverse:hover {
-    background-color: var(--secondary);
 }
 
 .logo {
