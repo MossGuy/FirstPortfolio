@@ -63,19 +63,19 @@ include './php_functies/isset.php';
                 <p class="text-center m-0">
                     Mijn naam is Milan, en ik woon in Enschede. <br>
                     Mijn grote hobbies zijn gamen en muziek maken.<br>
-                    Ik speel keyboard, harp en blokfluit.
+                    Ik speel keyboard, harp, blokfluit en dwarsfluit.
                 </p>
                 <p><?PHP echo return_anchor(); ?></p>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn lievelings games</p>
                 <ul class="p-0">
-                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon">Pokemon Mystery Dungeon</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon">Pokemon</a></li>
                     <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">Mario kart</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
                     <li><a href="https://deltarune.fandom.com/wiki/Main_Page">Deltarune</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight">Hollow Knight</a></li>
-                    <li><a href="https://horizon.fandom.com/wiki/Horizon_Zero_Dawn">Horizon Zero Dawn</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hades_II">Hades II</a></li>
                 </ul>
             </div>
             <div>
@@ -84,7 +84,7 @@ include './php_functies/isset.php';
                     <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei">Mushoku Tensei</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Fire_Force">Fire Force</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Soul_Eater">Soul Eater</a></li>
                     <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki">Dr. Stone</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Frieren">Frieren: Beyond Journey's End</a></li>
                 </ol>
