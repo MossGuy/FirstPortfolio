@@ -13,11 +13,11 @@
         </div>
         <div class="container col-3 d-flex flex-column align-items-center justify-content-center footer_div">
             <p>Voor het laatst bijgewerkt:</p>
-            <p class="highlight">06-9-2024</p>
+            <p class="highlight">09-4-2025</p>
         </div>
         <div class="container col-3 d-flex flex-column align-items-center justify-content-center footer_div">
-            <p>Vind ij op:</p>
-            <p><a href="https://github.com/Milan-Pallas"><i class="bi bi-github"></i> GitHub</a></p>
+            <p>Links waar iedereen heel erg om geeft, idk:</p>
+            <p><a href="https://github.com/MossGuy"><i class="bi bi-github"></i> GitHub</a></p>
             <p><a href="https://www.linkedin.com/in/milan-pallas-b719b0281/"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
         </div>
     </div>
