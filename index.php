@@ -3,6 +3,8 @@ session_start();
 require './php_functies/DBConfig.php';
 include './php_functies/functies.php';
 include './php_functies/isset.php';
+$a = '<a class="m_auto" href="./wie_ben_ik.php">Wat voor persoon ben ik</a>';
+$a = return_anchor($a);
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -65,11 +67,11 @@ include './php_functies/isset.php';
                     Mijn grote hobbies zijn gamen en muziek maken.<br>
                     Ik speel keyboard, harp, blokfluit en dwarsfluit.
                 </p>
-                <p><?PHP echo return_anchor(); ?></p>
+                <p><?=$a?></p>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn lievelings games</p>
-                <ul class="p-0">
+                <ul class="pt-1">
                     <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon">Pokemon</a></li>
                     <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">Mario kart</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
@@ -80,7 +82,7 @@ include './php_functies/isset.php';
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn favoriete series:</p>
-                <ol class="p-0">
+                <ol class="pt-1">
                     <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei">Mushoku Tensei</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
@@ -126,27 +128,29 @@ include './php_functies/isset.php';
                 <p class="text-center m-0">
                     Mijn naam is Milan, en ik woon in Enschede. <br>
                     Mijn grote hobbies zijn gamen en muziek maken.<br>
-                    Ik speel keyboard, harp en blokfluit.
+                    Ik speel keyboard, harp, blokfluit en dwarsfluit.
                 </p>
-                <p><?PHP echo return_anchor(); ?></p>
+                <p><?=$a?></p>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn lievelings games</p>
-                <ul class="p-0">
-                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon">Pokemon Mystery Dungeon</a></li>
+                <ul class="pt-1">
+                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon">Pokemon</a></li>
                     <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">Mario kart</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
                     <li><a href="https://deltarune.fandom.com/wiki/Main_Page">Deltarune</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight">Hollow Knight</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hades_II">Hades II</a></li>
                 </ul>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn favoriete series:</p>
-                <ol class="p-0">
+                <ol class="pt-1">
                     <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei">Mushoku Tensei</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Fire_Force">Fire Force</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Soul_Eater">Soul Eater</a></li>
+                    <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki">Dr. Stone</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Frieren">Frieren: Beyond Journey's End</a></li>
                 </ol>
             </div>
@@ -155,18 +159,25 @@ include './php_functies/isset.php';
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <label class="highlight fs-4" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 m-2 fw-bold" name="prog_talen" id="dummy_select" disabled>
+                <select class="button_css border border-2 rounded p-2 m-2 fw-bold" name="prog_talen" id="prog_talen">
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="bootstrap">Bootstrap5</option>
+                    <option value="php">PHP</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="mysql">MySQL</option>
+                    <option value="c#">C#</option>
                 </select>
             </div>
             <div>
-                <p id="prog_talen_output2">
+                <p id="prog_talen_output1">
                     Hier kun je lezen welke programmeertalen ik ken en leuk vind.<br>
                     Probeer het eens uit!
                 </p>
             </div>
             <div>
-                <img id="cool_changing_logo2">
+                <img id="cool_changing_logo1">
             </div>
         </div>
     </div>

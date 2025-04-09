@@ -44,7 +44,7 @@ check_session();
         <div>
             <h1>Wat meer informatie over mij</h1>
             <p>
-                Mijn volledige naam is Milan Pallas, en ik ben 23 jaar oud. <br>
+                Mijn volledige naam is Milan Pallas, en ik ben 25 jaar oud. <br>
                 Zie deze pagina als een zoort FAQ over mijzelf.
             </p>
         </div>
@@ -59,29 +59,30 @@ check_session();
             <div>
                 <h2>Wat voor persoon ben ik?</h2>
                 <p class="text-wrap px-5">
-                    Ik ben een vrij rustig persoon.
-                    Gezelligheid op de werkvloer is altijd welkom, maar als het te remoerig is kan ik onrustig worden.
-                    Verder ben ik heel observerend. Ik zie nog wel eens iets wat een ander niet snel opvalt.<br>
-                    <a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a>
-                </p>
+                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.
+                    Daarnaast heb ik gemerkt dat ik best leergierig kan zijn, als ik hetgeen maar interessant genoeg vind. <br>
+                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie en enondersteuning. 
+            </p>
+            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
                 <p>
-                    Het leuke van programmeren is nu weg en ik wil niks liever dan muziek maken op professioneel niveau.
+                    Het pad van een fulltime muzikant is lang en onzeker.<br>
+                    Er zijn heel veel wegen om te bewandelen en ik wil rustig mijn tijd nemen om ze te leren kennen.
                 </p>
             </div>
             <div>
                 <p class="highlight m-0">Mijn sterktes</p>
-                <ul>
-                    <li>netjes zijn met spullen</li>
-                    <li>op tijd komen</li>
-                    <li>geduldig zijn</li>
+                <ul class="w-100">
+                    <li>Scherp oog</li>
+                    <li>Netjes zijn met spullen</li>
+                    <li>Wakker worden voordat mijn wekker gaat</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
-                <ul>
-                    <li>Snel conclussies trekken</li>
-                    <li>communicatie</li>
+                <ul class="w-100">
+                    <li>Concentratie niveau kan schommelen</li>
+                    <li>Communicatie</li>
                 </ul>
             </div>
         </div>
@@ -90,10 +91,11 @@ check_session();
             <div>
                 <h2>Wat is mijn doel?</h2>
                 <p>
-                    Na een half jaar back-end programma's schrijven in een bedrijf is nu alle lol er af. Mijn studie wil dat ik met ASP .net ga werken dus haak ik lekker af.
+                    Ik ben mij actief aan het ontwikkelen als programmeur en muzikant. <br>
+                    Ik ben best content om zowel programmeren als muziek maken te behouden. Zo behoud ik nog wat variatie in mijn dagelijks leven.
                 </p>
             </div>
-            <div class="d-inline mt-auto h-100">
+            <div>
                 <h2>Mijn cv, diploma's en certificaten</h2>
                 <ul>
                     <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
@@ -103,11 +105,9 @@ check_session();
                 </ul>
             </div>
             <div>
-                <h2>Mijn competenties</h2>
+                <h2>Projecten waaraan ik heb gewerkt</h2>
                 <ul>
-                    <li><p>Observerend</p></li>
-                    <li><p>Naukeurig</p></li>
-                    <li><p>Serieus</p></li>
+                    <li><a href="">Pokémon kaarten bibliotheek</a></li>
                 </ul>
             </div>
         </div>
@@ -120,30 +120,31 @@ check_session();
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <h2>Wat voor persoon ben ik?</h2>
-                <p class="text-wrap px-5">
-                    Ik ben een vrij rustig persoon.
-                    Gezelligheid op de werkvloer is altijd welkom, maar als het te remoerig is kan ik onrustig worden.
-                    Verder ben ik heel observerend. Ik zie nog wel eens iets wat een ander niet snel opvalt.<br>
-                    <a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a>
-                </p>
+                <p class="text-wrap">
+                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.
+                    Daarnaast heb ik gemerkt dat ik best leergierig kan zijn, als ik hetgeen maar interessant genoeg vind. <br>
+                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie en enondersteuning. 
+            </p>
+            <p><a class="m_auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
                 <p>
-                    Het leuke van programmeren is nu weg en ik wil niks liever dan muziek maken op professioneel niveau.
+                    Het pad van een fulltime muzikant is lang en onzeker.<br>
+                    Er zijn heel veel wegen om te bewandelen en ik wil rustig mijn tijd nemen om ze te leren kennen.
                 </p>
             </div>
             <div>
                 <p class="highlight m-0">Mijn sterktes</p>
-                <ul>
-                    <li>netjes zijn met spullen</li>
-                    <li>op tijd komen</li>
-                    <li>geduldig zijn</li>
+                <ul class="w-100">
+                    <li>Scherp oog</li>
+                    <li>Netjes zijn met spullen</li>
+                    <li>Wakker worden voordat mijn wekker gaat</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
-                <ul>
-                    <li>Snel conclussies trekken</li>
-                    <li>communicatie</li>
+                <ul class="w-100">
+                    <li>Concentratie niveau kan schommelen</li>
+                    <li>Communicatie</li>
                 </ul>
             </div>
         </div>
@@ -152,10 +153,11 @@ check_session();
             <div>
                 <h2>Wat is mijn doel?</h2>
                 <p>
-                Na een half jaar back-end programma's schrijven in een bedrijf is nu alle lol er af. Mijn studie wil dat ik met ASP .net ga werken dus haak ik lekker af.
+                    Ik ben mij actief aan het ontwikkelen als programmeur en muzikant. <br>
+                    Ik ben best content om zowel programmeren als muziek maken te behouden. Zo behoud ik nog wat variatie in mijn dagelijks leven.
                 </p>
             </div>
-            <div class="d-inline mt-auto h-100">
+            <div>
                 <h2>Mijn cv, diploma's en certificaten</h2>
                 <ul>
                     <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
@@ -165,11 +167,9 @@ check_session();
                 </ul>
             </div>
             <div>
-                <h2>Mijn competenties</h2>
+                <h2>Projecten waaraan ik heb gewerkt</h2>
                 <ul>
-                    <li><p>Observerend</p></li>
-                    <li><p>Naukeurig</p></li>
-                    <li><p>Serieus</p></li>
+                    <li><a href="">Pokémon kaarten bibliotheek</a></li>
                 </ul>
             </div>
         </div>

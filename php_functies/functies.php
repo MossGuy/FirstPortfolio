@@ -115,13 +115,14 @@ function return_alert()
         }
     }
 }
-function return_anchor()
+function return_anchor($a)
 {
     if (isset($_SESSION['user'])) {
         if ($_SESSION['user'] == "W3rkgev3r2938") {
-            return '<a href="./wie_ben_ik.php">Wat voor persoon ben ik</a>';
+            return $a;
         }
     }
+    return '';
 }
 
 function check_session()
