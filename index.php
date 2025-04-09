@@ -31,6 +31,7 @@ include './php_functies/isset.php';
     <link rel="stylesheet" href="./bootstrap5/bootstrap-icons-1.11.1/bootstrap-icons.css">
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/index.css">
     <?PHP echo link_kleurenthema(); ?>
     <script src="./javascript_functies/index.js" defer></script>
     <title>Mijn web portfolio</title>
