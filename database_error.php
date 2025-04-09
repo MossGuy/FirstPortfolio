@@ -30,6 +30,7 @@ include './php_functies/functies.php';
     <link rel="stylesheet" href="./bootstrap5/bootstrap-icons-1.11.1/bootstrap-icons.css">
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/database_error.css">
     <?PHP echo link_kleurenthema(); ?>
     <title>Mijn web portfolio</title>
 </head>

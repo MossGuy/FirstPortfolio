@@ -34,6 +34,7 @@ check_session();
     <!-- stylesheet links -->
     <?PHP echo link_kleurenthema(); ?>
     <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/wie_ben_ik.css">
     <title>Mijn web portfolio</title>
 </head>
 <body>

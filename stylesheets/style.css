@@ -1,4 +1,19 @@
- /*                    */
+ /* -------------  */
+/* Inhoudsopgave: */
+
+/*
+algemene_elementen
+scrollbar
+navbar
+header
+footer
+scemantics
+universele_classes
+grids
+*/
+
+
+
 /* algemene_elementen */
 @font-face {
     font-family: coolFont;
@@ -26,100 +41,7 @@ body {
     background-color: var(--background);
 }
 
-/* scemantics */
-h1 {
-    font-weight: bold;
-    color: var(--highlight);
-    border-color: var(--highlight);
-}
-
-h2 {
-    width: fit-content;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    font-weight: bold;
-    color: var(--highlight);
-    border-color: var(--highlight);
-}
-
-p {
-    font-size: larger;
-    color: var(--text);
-}
-
-a {
-    width: fit-content;
-    display: block;
-    font-size: large;
-    color: var(--highlight);
-    text-decoration: none;
-    transition: transform 0.2s;
-}
-
-a:hover {
-    border-bottom: 2px solid var(--highlight);
-    transform: scale(1.1);
-}
-
-li {
-    color: var(--text);
-}
-
-select {
-    width: 8rem;
-}
-
-/* universele_classes */
-.a {
-    height: 100vh;
-}
-
-.button_css {
-    background-color: var(--secondary);
-    border-color: var(--highlight);
-    color: var(--highlight);
-    border-style: solid;
-    transition: 0.2s;
-}
-.button_css:hover {
-    background-color: var(--primary);
-}
-.button_css_reverse {
-    background-color: var(--primary);
-    border-color: var(--highlight);
-    color: var(--highlight);
-    border-style: solid;
-    transition: 0.2s;
-}
-.button_css_reverse:hover {
-    background-color: var(--secondary);
-}
-
-.highlight {
-    color: var(--highlight);
-}
-
-.icon {
-    color: var(--text);
-    border-color: var(--highlight);
-}
-
-.alert {
-    background-color: var(--primary);
-    border-color: var(--highlight);
-    color: var(--text);
-}
-
-.border_bod_css {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--text);
-}
-
- /*                    */
-/* De navigatie balk */
+/* navbar */
 nav {
     background-color: var(--primary);
     border-bottom: 2px solid var(--highlight);
@@ -182,6 +104,121 @@ nav {
     color: #F5E8C7;
 }
 
+.textbox {
+    background-color: var(--textbox);
+}
+
+/* header */
+header {
+    border-color: var(--highlight);
+    height: 60vh;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 0 4px 2px 0.2px #000000;
+    
+}
+
+/* footer */
+footer {
+    width: auto;
+    background-color: var(--primary);
+    border-top: 2px solid var(--highlight);
+}
+
+.footer_div > p {
+    font-size: small;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* scemantics */
+h1 {
+    font-weight: bold;
+    color: var(--highlight);
+    border-color: var(--highlight);
+}
+
+h2 {
+    width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-weight: bold;
+    color: var(--highlight);
+    border-color: var(--highlight);
+}
+
+p {
+    font-size: larger;
+    color: var(--text);
+}
+
+a {
+    width: fit-content;
+    display: block;
+    font-size: large;
+    color: var(--highlight);
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+a:hover {
+    border-bottom: 2px solid var(--highlight);
+    transform: scale(1.1);
+}
+
+li {
+    color: var(--text);
+}
+
+select {
+    width: 8rem;
+}
+
+/* universele_classes */
+.button_css {
+    background-color: var(--secondary);
+    border-color: var(--highlight);
+    color: var(--highlight);
+    border-style: solid;
+    transition: 0.2s;
+}
+.button_css:hover {
+    background-color: var(--primary);
+}
+.button_css_reverse {
+    background-color: var(--primary);
+    border-color: var(--highlight);
+    color: var(--highlight);
+    border-style: solid;
+    transition: 0.2s;
+}
+.button_css_reverse:hover {
+    background-color: var(--secondary);
+}
+
+.highlight {
+    color: var(--highlight);
+}
+
+.icon {
+    color: var(--text);
+    border-color: var(--highlight);
+}
+
+.alert {
+    background-color: var(--primary);
+    border-color: var(--highlight);
+    color: var(--text);
+}
+
+.border_bod_css {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--text);
+}
+
 .modal-header {
     background-color: var(--primary);
     height: 4rem;
@@ -201,74 +238,13 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.textbox {
-    background-color: var(--textbox);
-}
-
- /*           */
-/* De footer */
-footer {
-    width: auto;
-    background-color: var(--primary);
-    border-top: 2px solid var(--highlight);
-}
-
-.footer_div > p {
-    font-size: small;
-    padding: 0%;
-    margin: 0%;
-}
-
-
-
- /*                     */
-/* database_error.php */
-#database_error {
-    margin: auto;
-    margin-top:10vh;
-    text-align: center;
-}
-
-.disconnected {
-    background-image: url(./afbeeldingen/disconnected.png), linear-gradient(var(--secondary), var(--secondary));
-    background-size: cover;
-    background-position: bottom;
-}
-
-tr {
-    border-bottom: 2px solid var(--highlight);
-}
-
-th {
-    background-color: var(--primary);
-    border-radius: 2rem 2rem 0 0;
-}
-
-td {
-    padding: 1rem;
-}
-
-.dc {
-    width: 40%;
-}
-
- /*           */
-/* Index.php */
-header {
-    border-color: var(--highlight);
-    height: 60vh;
-    background-position: bottom;
-    background-size: cover;
-    box-shadow: 0 4px 2px 0.2px #000000;
-    
-}
-
 .logo {
     border-radius: 1rem;
     width: 7rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+/* grids */
 .grid_container:last-of-type {
     transform: scaleY(-1);
     opacity: 0.2;
@@ -311,43 +287,3 @@ header {
     grid-row: 1/3;
 }
 
-#cool_changing_logo1 {
-    height: 150px;
-    padding: 1rem;
-    border-color: transparent;
-}
-
-#cool_changing_logo2 {
-    height: 150px;
-    padding: 1rem;
-    border-color: transparent;
-}
-
- /*                */
-/* wie_ben_ik.php */
-.ikke {
-    border-radius: 2rem;
-    width: 15rem;
-}
-
-
- /*                         */
-/* statustieken_voor_Nerds.php */
-.grote_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--secondary);
-    border-bottom: 3px solid var(--highlight);
-    border-radius: 3rem 3rem 0px 0px;
-    height: 40rem;
-    padding: 1rem;
-    margin: 2rem;
-}
-
-.grafiek_afbeelding {
-    position: relative;
-    width: 80%;
-    margin-bottom: 1rem;
-}

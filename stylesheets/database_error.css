@@ -1,0 +1,28 @@
+#database_error {
+    margin: auto;
+    margin-top:10vh;
+    text-align: center;
+}
+
+.disconnected {
+    background-image: url(./afbeeldingen/disconnected.png), linear-gradient(var(--secondary), var(--secondary));
+    background-size: cover;
+    background-position: bottom;
+}
+
+tr {
+    border-bottom: 2px solid var(--highlight);
+}
+
+th {
+    background-color: var(--primary);
+    border-radius: 2rem 2rem 0 0;
+}
+
+td {
+    padding: 1rem;
+}
+
+.dc {
+    width: 40%;
+}
