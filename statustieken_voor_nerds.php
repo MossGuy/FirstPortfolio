@@ -39,7 +39,6 @@ check_session();
 </head>
 <body>
     <?PHP include './webelementen/navbar.php'; return_alert(); ?>
-    <!-- TODO - inlog session valideren -->
 
     <br>
     <p><a href="./wie_ben_ik.php">Terug</a></p>
