@@ -32,7 +32,7 @@ include './php_functies/isset.php';
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/template.css">
-    <?PHP echo link_kleurenthema(); ?>
+    <?=link_kleurenthema();?>
     <title>Mijn web portfolio</title>
 </head>
 <body>
