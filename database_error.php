@@ -31,7 +31,7 @@ include './php_functies/functies.php';
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/database_error.css">
-    <?PHP echo link_kleurenthema(); ?>
+    <?=link_kleurenthema();?>
     <title>Mijn web portfolio</title>
 </head>
 <body >

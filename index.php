@@ -34,7 +34,7 @@ $a = return_anchor($a);
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/index.css">
-    <?PHP echo link_kleurenthema(); ?>
+    <?=link_kleurenthema();?>
     <script src="./javascript_functies/index.js" defer></script>
     <title>Mijn web portfolio</title>
 </head>
