@@ -57,7 +57,7 @@ check_session();
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
             <div class="px-5">
-                <h2>Wat voor persoon ben ik?</h2>
+                <h2 class="no_shrink">Wat voor persoon ben ik?</h2>
                 <p class="text-wrap">
                     Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
                     Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, enondersteuning en mijn interesse. 
@@ -74,9 +74,9 @@ check_session();
             <div>
                 <p class="highlight m-0">Mijn sterktes</p>
                 <ul class="w-100">
-                    <li>Scherp oog</li>
+                    <li>Oplettend</li>
                     <li>Netjes zijn met spullen</li>
-                    <li>Wakker worden voordat mijn wekker gaat</li>
+                    <li>Op tijd komen</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
                 <ul class="w-100">
@@ -97,10 +97,10 @@ check_session();
             <div>
                 <h2>Mijn cv, diploma's en certificaten</h2>
                 <ul>
-                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
+                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf" target="_blank">Mijn CV</a></li>
                     <br>
-                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf">Diploma: ICT medewerker</a></li>
-                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf">Diploma: ICT beheerder</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf" target="_blank">Diploma: ICT medewerker</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf" target="_blank">Diploma: ICT beheerder</a></li>
                 </ul>
             </div>
             <div>
@@ -135,7 +135,7 @@ check_session();
             <div>
                 <p class="highlight m-0">Mijn sterktes</p>
                 <ul class="w-100">
-                    <li>Scherp oog</li>
+                    <li>Oplettend</li>
                     <li>Netjes zijn met spullen</li>
                     <li>Op tijd komen</li>
                 </ul>
@@ -143,6 +143,7 @@ check_session();
                 <ul class="w-100">
                     <li>Concentratie niveau kan schommelen</li>
                     <li>Communicatie</li>
+                    <li>Alle apen kijken, je begint er op te lijken</li>
                 </ul>
             </div>
         </div>
@@ -158,10 +159,10 @@ check_session();
             <div>
                 <h2>Mijn cv, diploma's en certificaten</h2>
                 <ul>
-                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
+                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf" target="_blank">Mijn CV</a></li>
                     <br>
-                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf">Diploma: ICT medewerker</a></li>
-                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf">Diploma: ICT beheerder</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf" target="_blank">Diploma: ICT medewerker</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf" target="_blank">Diploma: ICT beheerder</a></li>
                 </ul>
             </div>
             <div>

@@ -55,7 +55,7 @@ check_session();
                     <p class="border-2 border-bottom border-success"><span class="text-success font-weight-bold">S</span>: Stabiel, Sociaal, Supportgevend</p>
                     <p class="border-2 border-bottom border-primary"><span class="text-primary font-weight-bold">C</span>: Consciëntieus, Correct en Calculerend</p>
                 </div>
-            <p class="d-flex justify-content-evenly w-100">Grafiek gemaakt met: <a href="https://zelforganisatiefabriek.nl/disc-test/#de-online-test-maken">zelforganisatiefabriek</a></p>
+            <p class="d-flex justify-content-evenly w-100">Grafiek gemaakt met: <a href="https://zelforganisatiefabriek.nl/disc-test/#de-online-test-maken" target="_blank">zelforganisatiefabriek</a></p>
         </div>
         <div class="container col-12 col-lg-5 grote_container">
             <h2>Enneagram</h2>
@@ -63,7 +63,7 @@ check_session();
 
             <p>Type 5: De waarnemer, de onderzoeker</p>
             <p>Type 9: De vredestichter, de bemiddelaar</p>
-            <p class="d-flex justify-content-evenly w-100">Gedetailleerde informatie: <a href="https://enneagram-personality.com/nl/types/all">Enneagramtypes lijst</a></p>
+            <p class="d-flex justify-content-evenly w-100">Gedetailleerde informatie: <a href="https://enneagram-personality.com/nl/types/all" target="_blank">Enneagramtypes lijst</a></p>
         </div>
     </div>
 
