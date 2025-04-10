@@ -10,6 +10,7 @@ footer
 scemantics
 universele_classes
 grids
+mediaqueries
 */
 
 
@@ -28,7 +29,7 @@ grids
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--secondary); 
+    background: var(--primary); 
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -177,11 +178,6 @@ select {
 }
 
 /* universele_classes */
-.m_auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .button_css {
     background-color: var(--secondary);
     border-color: var(--highlight);
@@ -250,7 +246,7 @@ select {
 }
 
 /* grids */
-.grid_container:last-of-type {
+.gespiegeld {
     transform: scaleY(-1);
     opacity: 0.2;
     margin-bottom: 3rem;
@@ -261,18 +257,21 @@ select {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2rem;
-    height: 650px;
+    height: 620px;
+    overflow: hidden;
 }
 
 .grids > div {
     display: inline;
+    max-height: 620px;
     background-color: var(--secondary);
     background-position: bottom;
     background-size: cover;
     border-bottom: 3px solid var(--highlight);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 20px 20px 0px 0px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    overflow: auto;
 }
 
 .grids:first-child > div {
@@ -288,3 +287,23 @@ select {
     grid-row: 1/3;
 }
 
+/* mediaqueries */
+@media screen and (max-width: 1300px) {
+    .gespiegeld {
+        display: none;
+    }
+    .grids > div {
+        padding: 0.5rem 10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .grids {
+        height: auto;
+    }
+
+    .grids > div:not(:first-child) h2 {
+        font-size: 20px;
+    }
+    
+}

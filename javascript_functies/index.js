@@ -5,12 +5,11 @@ function updateOutputs(message, image) {
     prog_logo2.src = image;
 }
 
-let prog_talen = document.getElementById("prog_talen");
-let prog_talen_output1 = document.getElementById("prog_talen_output1");
-let prog_talen_output2 = document.getElementById("prog_talen_output2");
-let prog_logo1 = document.getElementById("cool_changing_logo1");
-let prog_logo2 = document.getElementById("cool_changing_logo2");
-let dummy_select = document.getElementById("dummy_select");
+const prog_talen = document.getElementById("prog_talen");
+const prog_talen_output1 = document.getElementById("prog_talen_output1");
+const prog_talen_output2 = document.getElementById("prog_talen_output2");
+const prog_logo1 = document.getElementById("cool_changing_logo1");
+const prog_logo2 = document.getElementById("cool_changing_logo2");
 
 const default_text = `
     Dit is maar de default tekst hoor, niet al te bijzonder
@@ -18,8 +17,9 @@ const default_text = `
     ( ͡° ͜ʖ ͡°)
     `;
 const html_kennis = `
-    Ik kan comfortabel werken met de basis elementen van HTML. Ik kan HTML combineren met verschillende
-    programmeertalen om leuke en interactieve web elementen te creëren.
+    Ik kan comfortabel werken met de basis elementen van HTML. Ik kan HTML combineren met verschillende programmeertalen om leuke en interactieve web elementen te creëren.
+    
+    Ik kan mijn websites gestructureerd opbouwen. Later heb ik geleerd om naast header, nav en footer ook met main en section te werken.
 `;
 const css_kennis = `
     Ik kan goed onderscheid maken in het gebruik van classes en selectors. Verder heb ik kennis met Flexbox, Grids en CSS variabelen.
@@ -53,19 +53,17 @@ const mysql_Kennis = `
     
     Laten we het maar niet hebben over joins... thx!
 `;
-const CSharp_kennis = `
-    C# is momenteel mijn mist favoriete programmeertaal. 
+const CSharp_kennis = `C# is momenteel mijn mist favoriete programmeertaal. 
 
     Ook met C# heb ik vanuit school en stage kennis opgebouwd, maar het leren van deze taal heb ik het meeste tijd voor moeten besteden in verhouding met andere talen die ik heb geleerd.
 
     een paar dingen waar ik ervaring mee heb zijn methods, constructors, erving en verschillende data types.
-
     Ook heb ik een tijdje met ASP.NET gewerkt, maar ik dat framework echt helemaal niks.
     Ik vind de bestandsstructuur super groot, en ik werk toch liever met XAMPP en Visual Studio Code :p
+
 `;
 
 prog_talen.addEventListener('change', () => {
-    dummy_select.innerHTML = `<option value="idk">${prog_talen.options[prog_talen.selectedIndex].text}</option>`;
     switch (prog_talen.value) {
         case "html":
             updateOutputs(html_kennis, "./afbeeldingen/prog_talen/HTML5.png");

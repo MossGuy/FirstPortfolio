@@ -3,7 +3,7 @@ session_start();
 require './php_functies/DBConfig.php';
 include './php_functies/functies.php';
 include './php_functies/isset.php';
-$a = '<a class="m_auto" href="./wie_ben_ik.php">Wat voor persoon ben ik</a>';
+$a = '<a class="mx-auto" href="./wie_ben_ik.php">Wat voor persoon ben ik</a>';
 $a = return_anchor($a);
 ?>
 <!DOCTYPE html>
@@ -61,8 +61,8 @@ $a = return_anchor($a);
     <div class="card-group grid_container">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
-            <div>
-                <p class="text-center m-0">
+            <div class="d-flex flex-column justify-content-center">
+                <p class="text-center">
                     Mijn naam is Milan, en ik woon in Enschede. <br>
                     Mijn grote hobbies zijn gamen en muziek maken.<br>
                     Ik speel keyboard, harp, blokfluit en dwarsfluit.
@@ -95,8 +95,8 @@ $a = return_anchor($a);
         <!-- De tweede grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
-                <label class="highlight fs-4" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 m-2 fw-bold" name="prog_talen" id="prog_talen">
+                <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
+                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" name="prog_talen" id="prog_talen">
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
                     <option value="html">HTML</option>
                     <option value="css">CSS</option>
@@ -113,7 +113,7 @@ $a = return_anchor($a);
                     Probeer het eens uit!
                 </p>
             </div>
-            <div>
+            <div class="d-flex align-items-center justify-content-center">
                 <img id="cool_changing_logo1">
             </div>
         </div>
@@ -121,11 +121,11 @@ $a = return_anchor($a);
 
     <!-- ------------------- -->
     <!-- De gespiegelde grid -->
-    <div class="card-group grid_container">
+    <div class="card-group grid_container gespiegeld">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
-            <div>
-                <p class="text-center m-0">
+            <div class="d-flex flex-column justify-content-center">
+                <p class="text-center">
                     Mijn naam is Milan, en ik woon in Enschede. <br>
                     Mijn grote hobbies zijn gamen en muziek maken.<br>
                     Ik speel keyboard, harp, blokfluit en dwarsfluit.
@@ -158,26 +158,19 @@ $a = return_anchor($a);
         <!-- De tweede grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
-                <label class="highlight fs-4" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 m-2 fw-bold" name="prog_talen" id="prog_talen">
+                <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
+                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" disabled>
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                    <option value="bootstrap">Bootstrap5</option>
-                    <option value="php">PHP</option>
-                    <option value="javascript">Javascript</option>
-                    <option value="mysql">MySQL</option>
-                    <option value="c#">C#</option>
                 </select>
             </div>
             <div>
-                <p id="prog_talen_output1">
+                <p id="prog_talen_output2">
                     Hier kun je lezen welke programmeertalen ik ken en leuk vind.<br>
                     Probeer het eens uit!
                 </p>
             </div>
-            <div>
-                <img id="cool_changing_logo1">
+            <div class="d-flex align-items-center justify-content-center">
+                <img id="cool_changing_logo2">
             </div>
         </div>
     </div>

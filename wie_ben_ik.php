@@ -56,12 +56,11 @@ check_session();
     <div class="card-group grid_container">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
-            <div>
+            <div class="px-5">
                 <h2>Wat voor persoon ben ik?</h2>
-                <p class="text-wrap px-5">
-                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.
-                    Daarnaast heb ik gemerkt dat ik best leergierig kan zijn, als ik hetgeen maar interessant genoeg vind. <br>
-                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie en enondersteuning. 
+                <p class="text-wrap">
+                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
+                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, enondersteuning en mijn interesse. 
             </p>
             <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>
@@ -115,17 +114,16 @@ check_session();
 
     <!-- -------------------- -->
     <!-- De gespiegelde grids -->
-    <div class="card-group grid_container">
+    <div class="card-group grid_container gespiegeld">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
-            <div>
+            <div class="px-5">
                 <h2>Wat voor persoon ben ik?</h2>
                 <p class="text-wrap">
-                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.
-                    Daarnaast heb ik gemerkt dat ik best leergierig kan zijn, als ik hetgeen maar interessant genoeg vind. <br>
-                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie en enondersteuning. 
+                    Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
+                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, enondersteuning en mijn interesse. 
             </p>
-            <p><a class="m_auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
+            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>

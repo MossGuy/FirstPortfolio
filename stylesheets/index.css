@@ -1,11 +1,5 @@
-#cool_changing_logo1 {
-    height: 150px;
-    padding: 1rem;
-    border-color: transparent;
-}
-
-#cool_changing_logo2 {
-    height: 150px;
+#cool_changing_logo1, #cool_changing_logo2 {
+    height: 200px;
     padding: 1rem;
     border-color: transparent;
 }
