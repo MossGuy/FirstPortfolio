@@ -11,11 +11,11 @@
                 <div class="kleuren_kiezer ms-auto">
                     <p>Kleuren thema</p>
                     <form class="kleuren_kiezer" action="" method="post">
-                        <input class="kleur" type="submit" name="kleur" id="kleur" , value="Basis wit">
-                        <input class="kleur" type="submit" name="kleur" id="kleur" , value="Nacht zwart">
-                        <input class="kleur" type="submit" name="kleur" id="kleur" , value="Perzik roze">
-                        <input class="kleur" type="submit" name="kleur" id="kleur" , value="Moss groen">
-                        <input class="kleur" type="submit" name="kleur" id="kleur" , value="Marine blauw">
+                        <input class="kleur" type="submit" name="kleur", value="Basis wit">
+                        <input class="kleur" type="submit" name="kleur", value="Nacht zwart">
+                        <input class="kleur" type="submit" name="kleur", value="Perzik roze">
+                        <input class="kleur" type="submit" name="kleur", value="Moss groen">
+                        <input class="kleur" type="submit" name="kleur", value="Marine blauw">
                     </form>
                 </div>
             </div>
