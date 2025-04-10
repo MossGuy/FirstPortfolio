@@ -112,7 +112,7 @@ nav {
 /* header */
 header {
     border-color: var(--highlight);
-    height: 50vh;
+    height: 45vh;
     background-position: bottom;
     background-size: cover;
     box-shadow: 0 4px 2px 0.2px #000000;
@@ -134,6 +134,8 @@ footer {
 
 /* scemantics */
 h1 {
+    /* font-size: 43px; */
+    text-align: left;
     font-weight: bold;
     color: var(--highlight);
     border-color: var(--highlight);
@@ -215,9 +217,7 @@ select {
 }
 
 .border_bod_css {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--text);
+    border-bottom: 2px solid var(--text);
 }
 
 .modal-header {
@@ -263,7 +263,6 @@ select {
 
 .grids > div {
     display: inline;
-    max-height: 620px;
     background-color: var(--secondary);
     background-position: bottom;
     background-size: cover;
@@ -294,6 +293,7 @@ select {
     }
     .grids > div {
         padding: 0.5rem 10px;
+        font-size: small;
     }
 }
 
@@ -301,9 +301,20 @@ select {
     .grids {
         height: auto;
     }
+    .grids > div {
+        max-height: 200px;
+    }
 
-    .grids > div:not(:first-child) h2 {
-        font-size: 20px;
+    .grids:last-child > div:nth-child(2) {
+        max-height: 500px;
+    }
+
+    .grids > div h2:not(.no_shrink)  {
+        font-size: 18px;
+    }
+    p {
+        font-size: larger;
+        margin-bottom: 0;
     }
     
 }
