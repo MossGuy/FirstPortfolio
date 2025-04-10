@@ -137,7 +137,7 @@ check_session();
                 <ul class="w-100">
                     <li>Scherp oog</li>
                     <li>Netjes zijn met spullen</li>
-                    <li>Wakker worden voordat mijn wekker gaat</li>
+                    <li>Op tijd komen</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
                 <ul class="w-100">
