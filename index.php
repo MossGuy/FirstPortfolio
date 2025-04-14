@@ -96,7 +96,7 @@ $a = return_anchor($a);
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" name="prog_talen" id="prog_talen">
+                <select class="button_css rounded p-2 fw-bold d-block mx-auto my-auto" name="prog_talen" id="prog_talen">
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
                     <option value="html">HTML</option>
                     <option value="css">CSS</option>
@@ -159,7 +159,7 @@ $a = return_anchor($a);
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" disabled>
+                <select class="button_css rounded p-2 fw-bold d-block mx-auto my-auto" disabled>
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
                 </select>
             </div>
