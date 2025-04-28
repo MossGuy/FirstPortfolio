@@ -1,4 +1,5 @@
 #database_error {
+    max-width: 1000px;
     margin: auto;
     margin-top:10vh;
     text-align: center;
@@ -29,4 +30,11 @@ td {
 
 .dc {
     width: 40%;
+}
+
+@media screen and (max-width: 770px) {
+    table {
+        width: 100%;
+        margin: 0 2rem;
+    }
 }

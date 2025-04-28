@@ -34,18 +34,43 @@ include './php_functies/functies.php';
     <?=link_kleurenthema();?>
     <title>Mijn web portfolio</title>
 </head>
-<body >
+<body>
+    <nav class=" fixed-top">
+        <div class="navbar navbar-expand-sm d-flex justify-content-between mx-4">
+            <p class="fw-bold mb-0 fs-5 me-auto">Mijn web portfolio</p>
+            <button class="navbar-toggler me-4 icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-flower3 h5"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="navbar-nav d-flex flex-row align-items-baseline ms-auto">
+                    <a class="nav-item m-1 p-1 fw-semibold" href="./index.php">Home</a>
+                    <div class="kleuren_kiezer ms-auto">
+                        <p>Kleuren thema</p>
+                        <form class="kleuren_kiezer" action="" method="post">
+                            <input class="kleur" type="submit" name="kleur", value="Basis wit">
+                            <input class="kleur" type="submit" name="kleur", value="Nacht zwart">
+                            <input class="kleur" type="submit" name="kleur", value="Perzik roze">
+                            <input class="kleur" type="submit" name="kleur", value="Moss groen">
+                            <input class="kleur" type="submit" name="kleur", value="Marine blauw">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <table id="database_error">
         <thead>
             <tr>
-                <th><h1>Helaas</h1></th>
+                <th><h1>Database error</h1></th>
             </tr>
         </thead>
         <tbody class="disconnected">
             <tr>
                 <td>
-                    <p>Er is iets fout gegaan bij het koppelen van het database waardoor de pagina niet geladen kon worden.</p>
-                    <p>Sluit de pagina en open de link opnieuw.</p>
+                    <p>
+                        In het vakgebied van programmeren krijg je zo nu en dan temaken met foutcodes. Met deze foutcodes kunnen wij als programmeur achterhalen waarom er iets mis gaat.
+                    </p>
                 </td>
             </tr>
             <tr>
