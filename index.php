@@ -34,7 +34,7 @@ $a = return_anchor($a);
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="stylesheet" href="./stylesheets/index.css">
-    <?PHP echo link_kleurenthema(); ?>
+    <?=link_kleurenthema();?>
     <script src="./javascript_functies/index.js" defer></script>
     <title>Mijn web portfolio</title>
 </head>
@@ -46,7 +46,7 @@ $a = return_anchor($a);
     <!-- De header -->
     <header class="d-flex flex-column justify-content-center align-items-center px-3 mb-5">
         <h1 class="text-wrap text-center mt-4 mx-5">Het web portfolio van een beginner software ontwikkelaar</h1>
-        <div class="d-flex align-items-center justify-content-evenly w-100">
+        <div class="d-flex align-items-center justify-content-evenly w-100 bg-sucess">
             <p>
                 Hallo! dit is mijn koele web-portfolio.<br>
                 Kijk rustig rond en blijf zolang als je wil.
@@ -72,23 +72,23 @@ $a = return_anchor($a);
             <div>
                 <p class="border_bod_css m-0">Mijn lievelings games</p>
                 <ul class="pt-1">
-                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon">Pokemon</a></li>
-                    <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">Mario kart</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
-                    <li><a href="https://deltarune.fandom.com/wiki/Main_Page">Deltarune</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight">Hollow Knight</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hades_II">Hades II</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank">Pokemon</a></li>
+                    <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe" target="_blank">Mario kart</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)" target="_blank">Kirby</a></li>
+                    <li><a href="https://deltarune.fandom.com/wiki/Main_Page" target="_blank">Deltarune</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight" target="_blank">Hollow Knight</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hades_II" target="_blank">Hades II</a></li>
                 </ul>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn favoriete series:</p>
                 <ol class="pt-1">
-                    <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei">Mushoku Tensei</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Soul_Eater">Soul Eater</a></li>
-                    <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki">Dr. Stone</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Frieren">Frieren: Beyond Journey's End</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei" target="_blank">Mushoku Tensei</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba" target="_blank">Demon Slayer</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku" target="_blank">Hell's Paradise</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Soul_Eater" target="_blank">Soul Eater</a></li>
+                    <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki" target="_blank">Dr. Stone</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Frieren" target="_blank">Frieren: Beyond Journey's End</a></li>
                 </ol>
             </div>
         </div>
@@ -96,7 +96,7 @@ $a = return_anchor($a);
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" name="prog_talen" id="prog_talen">
+                <select class="button_css rounded p-2 fw-bold d-block mx-auto my-auto" name="prog_talen" id="prog_talen">
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
                     <option value="html">HTML</option>
                     <option value="css">CSS</option>
@@ -108,7 +108,7 @@ $a = return_anchor($a);
                 </select>
             </div>
             <div>
-                <p id="prog_talen_output1">
+                <p id="prog_talen_output1" class="fs-5">
                     Hier kun je lezen welke programmeertalen ik ken en leuk vind.<br>
                     Probeer het eens uit!
                 </p>
@@ -135,23 +135,23 @@ $a = return_anchor($a);
             <div>
                 <p class="border_bod_css m-0">Mijn lievelings games</p>
                 <ul class="pt-1">
-                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon">Pokemon</a></li>
-                    <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe">Mario kart</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
-                    <li><a href="https://deltarune.fandom.com/wiki/Main_Page">Deltarune</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight">Hollow Knight</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hades_II">Hades II</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank">Pokemon</a></li>
+                    <li><a href="https://www.mariowiki.com/Mario_Kart_8_Deluxe" target="_blank">Mario kart</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)" target="_blank">Kirby</a></li>
+                    <li><a href="https://deltarune.fandom.com/wiki/Main_Page" target="_blank">Deltarune</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight" target="_blank">Hollow Knight</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hades_II" target="_blank">Hades II</a></li>
                 </ul>
             </div>
             <div>
                 <p class="border_bod_css m-0">Mijn favoriete series:</p>
                 <ol class="pt-1">
-                    <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei">Mushoku Tensei</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Soul_Eater">Soul Eater</a></li>
-                    <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki">Dr. Stone</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Frieren">Frieren: Beyond Journey's End</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Mushoku_Tensei" target="_blank">Mushoku Tensei</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba" target="_blank">Demon Slayer</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku" target="_blank">Hell's Paradise</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Soul_Eater" target="_blank">Soul Eater</a></li>
+                <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki" target="_blank">Dr. Stone</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Frieren" target="_blank">Frieren: Beyond Journey's End</a></li>
                 </ol>
             </div>
         </div>
@@ -159,12 +159,12 @@ $a = return_anchor($a);
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
-                <select class="button_css border border-2 rounded p-2 fw-bold d-block mx-auto my-auto" disabled>
+                <select class="button_css rounded p-2 fw-bold d-block mx-auto my-auto" disabled>
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
                 </select>
             </div>
             <div>
-                <p id="prog_talen_output2">
+                <p id="prog_talen_output2" class="fs-5">
                     Hier kun je lezen welke programmeertalen ik ken en leuk vind.<br>
                     Probeer het eens uit!
                 </p>

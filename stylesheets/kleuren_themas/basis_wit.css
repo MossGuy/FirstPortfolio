@@ -1,10 +1,10 @@
 :root {
-    --primary: #dddddd;
-    --secondary: #eeeeee;
+    --primary: #f0f0f0;
+    --secondary: #cfcfcf;
     --background: #ffffff;
-    --highlight: #61876E;
-    --text: #000000;
-    --textbox: #eeeeee;
+    --highlight: #4F6F52;
+    --text: #1e1e1e;
+    --textbox: #cfcfcf;
 }
 
 header {
