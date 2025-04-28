@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS `database_le_portfolio`;
+DROP DATABASE IF EXISTS `db_portfolio_milan`;
 
-CREATE DATABASE `database_le_portfolio`;
+CREATE DATABASE `db_portfolio_milan`;
 
-USE `database_le_portfolio`;
+USE `db_portfolio_milan`;
 
 CREATE TABLE `gebruikers` (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
