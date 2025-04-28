@@ -1,6 +1,4 @@
 <?php
-$_SESSION['DBMessage'] = "";
-
 if (!isset($_SESSION['DBAttempt'])) {
     $_SESSION['DBAttempt'] = true;
 }
