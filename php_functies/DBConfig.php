@@ -2,7 +2,7 @@
 $_SESSION['DBMessage'] = "";
 
 $host = '127.0.0.1';
-$db   = 'database_le_portfolio';
+$db   = 'db_portfolio_milan';
 $user = 'bit_academy';
 $pass = 'bit_academy';
 // $user = 'root';
