@@ -1,6 +1,13 @@
 <?php
 $_SESSION['DBMessage'] = "";
 
+if (!isset($_SESSION['DBAttempt'])) {
+    $_SESSION['DBAttempt'] = true;
+}
+if (!$_SESSION['DBAttempt']) {
+    return;
+}
+
 $host = '127.0.0.1';
 $db   = 'db_portfolio_milan';
 $user = 'bit_academy';
@@ -18,12 +25,23 @@ $options = [
 global $storedUserInfo;
 try {
     $pdo = new PDO($dsn, $user, $pass, $options);
+
+    $_SESSION['DBStatus'] = true;
+    unset($_SESSION['status']);
 } catch (PDOException $e) {
     $_SESSION['DBMessage'] = $e->getMessage();
-    header('Location: ./database_error.php');
+    $_SESSION['DBStatus'] = false;
+    $_SESSION['DBAttempt'] = false;
+    $_SESSION['status'] = 'db_failed';
+    $_SESSION['weggeclicked'] = 'false';
+    header("Refresh:0");
+
+    // header('Location: ./database_error.php');
 }
 
-$storedUserInfo = $pdo->prepare("SELECT * FROM `gebruikers`");
-$storedUserInfo->execute();
+if ($_SESSION['DBStatus']) {
+    $storedUserInfo = $pdo->prepare("SELECT * FROM `gebruikers`");
+    $storedUserInfo->execute();
+}
 
 ?>

@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+#database_error h1 {
+    text-align: center;
+}
+
 .disconnected {
     background-image: url(../afbeeldingen/disconnected.png), linear-gradient(var(--secondary), var(--secondary));
     background-size: cover;

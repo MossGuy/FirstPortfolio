@@ -15,4 +15,10 @@ if (isset($_POST['close'])) {
     $_SESSION['weggeclicked'] = 'true';
     header('Refresh:0');
 }
+
+if (isset($_POST['db_retry'])) {
+    $_SESSION['DBAttempt'] = true;
+    header('Refresh:0');
+}
+
 ?>

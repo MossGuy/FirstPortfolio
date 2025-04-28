@@ -48,7 +48,9 @@ function link_kleurenthema()
 }
 function return_login_button()
 {
-    if (isset($_SESSION['loggedIn'])) {
+    if (!$_SESSION['DBStatus']) {
+        echo '<form action="" method="POST"><input class="rounded m-1 fw-semibold button_css" type="submit" name="db_retry" id="db_retry" value="connect db"></form>';
+    } else if (isset($_SESSION['loggedIn'])) {
         echo '<form action="" method="POST"><input class="rounded m-1 fw-semibold button_css" type="submit" name="loguit" id="loguit" value="Log uit"></form>';
     } else {
         echo '<a class="nav-item m-1 p-1 fw-semibold" href="" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Log in</a>';
@@ -87,6 +89,8 @@ function user_feedback()
     switch ($_SESSION["status"]) {
         case "empty":
             return "Het lijkt er op dat niet alle inlog veldjes ingevult zijn.<br>Zeer amuserend.";
+        case "db_failed":
+            return "Er is iets mis gegaan bij het koppelen van het database. <a href='./database_error.php'>Meer Informatie <i class='bi bi-arrow-right'></i></a>";
         case "failed":
             return "Helaas, het lijkt er op dat de gebruikte inlog gegevens incorrect zijn.<br>Probeer het nog een keer... of ook niet.";
         case "nice_try":
