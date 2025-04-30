@@ -1,3 +1,8 @@
+<?php
+$over_mij = '<a href="./wie_ben_ik.php">Over mij</a>';
+$over_mij = return_anchor($over_mij);
+?>
+
 <nav class=" fixed-top">
     <div class="navbar navbar-expand-sm d-flex justify-content-between mx-4">
         <p class="fw-bold mb-0 fs-5 me-auto">Mijn web portfolio</p>
@@ -6,9 +11,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <div class="navbar-nav d-flex flex-row align-items-baseline ms-auto">
+                <?=return_login_button();?>
                 <a class="nav-item m-1 p-1 fw-semibold" href="./index.php">Home</a>
-                <?PHP echo return_login_button(); ?>
-                <div class="kleuren_kiezer ms-auto">
+                <?=$over_mij?>
+                <div class="kleuren_kiezer ms-auto px-2">
                     <p>Kleuren thema</p>
                     <form class="kleuren_kiezer" action="" method="post">
                         <input class="kleur" type="submit" name="kleur", value="Basis wit">

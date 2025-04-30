@@ -71,15 +71,15 @@ check_session();
                     Er zijn heel veel wegen om te bewandelen en ik wil rustig mijn tijd nemen om ze te leren kennen.
                 </p>
             </div>
-            <div>
+            <div class="d-flex flex-column align-items-center">
                 <p class="highlight m-0">Mijn sterktes</p>
-                <ul class="w-100">
+                <ul class="w-75">
                     <li>Oplettend</li>
                     <li>Netjes zijn met spullen</li>
                     <li>Op tijd komen</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
-                <ul class="w-100">
+                <ul class="w-75">
                     <li>Concentratie niveau kan schommelen</li>
                     <li>Communicatie</li>
                 </ul>
@@ -132,18 +132,17 @@ check_session();
                     Er zijn heel veel wegen om te bewandelen en ik wil rustig mijn tijd nemen om ze te leren kennen.
                 </p>
             </div>
-            <div>
+            <div class="d-flex flex-column align-items-center">
                 <p class="highlight m-0">Mijn sterktes</p>
-                <ul class="w-100">
+                <ul class="w-75">
                     <li>Oplettend</li>
                     <li>Netjes zijn met spullen</li>
                     <li>Op tijd komen</li>
                 </ul>
                 <p class="highlight m-0">Mijn zwaktes</p>
-                <ul class="w-100">
+                <ul class="w-75">
                     <li>Concentratie niveau kan schommelen</li>
                     <li>Communicatie</li>
-                    <li>Alle apen kijken, je begint er op te lijken</li>
                 </ul>
             </div>
         </div>

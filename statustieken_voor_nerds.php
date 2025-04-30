@@ -41,11 +41,11 @@ check_session();
     <?PHP include './webelementen/navbar.php'; return_alert(); ?>
 
     <br>
-    <p><a href="./wie_ben_ik.php">Terug</a></p>
+    <!-- <p><a href="./wie_ben_ik.php">Terug</a></p> -->
     <h2 class="border-bottom border-3">Statustieken voor nerds.</h2>
     
-    <div class="card-group justify-content-evenly">
-        <div class="container col-12 col-lg-5 grote_container">
+    <div class="card-group justify-content-center">
+        <div class="container col-10 col-lg-5 grote_container">
             <h2>DISC profiel</h2>
             <img class="grafiek_afbeelding" src="./afbeeldingen/DISC.png" alt="DISC afbeelding">
                 <div class="w-75">
@@ -56,7 +56,7 @@ check_session();
                 </div>
             <p class="d-flex justify-content-evenly w-100">Grafiek gemaakt met: <a href="https://zelforganisatiefabriek.nl/disc-test/#de-online-test-maken" target="_blank">zelforganisatiefabriek</a></p>
         </div>
-        <div class="container col-12 col-lg-5 grote_container">
+        <div class="container col-10 col-lg-5 grote_container">
             <h2>Enneagram</h2>
             <img class="grafiek_afbeelding" src="./afbeeldingen/enneagram.png" alt="Enneagram afbeelding">
 

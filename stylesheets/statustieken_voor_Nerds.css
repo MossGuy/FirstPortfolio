@@ -6,7 +6,7 @@
     background-color: var(--secondary);
     border-bottom: 3px solid var(--highlight);
     border-radius: 3rem 3rem 0px 0px;
-    height: 40rem;
+    height: 625px;
     padding: 1rem;
     margin: 2rem;
 }

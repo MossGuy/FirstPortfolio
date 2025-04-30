@@ -1,4 +1,4 @@
-<footer class="container-fluid mt-auto py-3">
+<footer class="container-fluid mt-auto py-3 ">
     <div class="container-fluid p-2 d-flex flex-row align-items-start justify-content_between">
         <div class="container col-3 d-flex flex-column align-items-center footer_div">
             <p>Mijn developer mail:</p>

@@ -134,12 +134,12 @@ function check_session()
     if (isset($_SESSION['user'])) {
         if ($_SESSION['user'] !== "W3rkgev3r2938") {
             $_SESSION['status'] = 'nice_try';
-            $_SESSION['weggeclicked'] = 'false';
+            $_SESSION['weggeclicked'] = false;
             header('Location: ./index.php');
         }
     } else {
         $_SESSION['status'] = 'nice_try';
-        $_SESSION['weggeclicked'] = 'false';
+        $_SESSION['weggeclicked'] = false;
         header('Location: ./index.php');
     }
 }
