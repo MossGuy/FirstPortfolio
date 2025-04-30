@@ -25,7 +25,6 @@ try {
     $pdo = new PDO($dsn, $user, $pass, $options);
 
     $_SESSION['DBStatus'] = true;
-    unset($_SESSION['status']);
 } catch (PDOException $e) {
     $_SESSION['DBMessage'] = $e->getMessage();
     $_SESSION['DBStatus'] = false;
@@ -33,8 +32,6 @@ try {
     $_SESSION['status'] = 'db_failed';
     $_SESSION['weggeclicked'] = 'false';
     header("Refresh:0");
-
-    // header('Location: ./database_error.php');
 }
 
 if ($_SESSION['DBStatus']) {
