@@ -62,7 +62,7 @@ check_session();
                     Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
                     Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, ondersteuning en mijn interesse. 
             </p>
-            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
+            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statistieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
@@ -123,7 +123,7 @@ check_session();
                     Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
                     Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, enondersteuning en mijn interesse. 
             </p>
-            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
+            <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statistieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>

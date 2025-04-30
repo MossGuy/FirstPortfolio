@@ -41,7 +41,7 @@ check_session();
     <?PHP include './webelementen/navbar.php'; return_alert(); ?>
 
     <br>
-    <h2 class="border-bottom border-3">Statustieken voor nerds.</h2>
+    <h2 class="border-bottom border-3">Statistieken voor nerds.</h2>
     
     <div class="card-group justify-content-center">
         <div class="container col-10 col-lg-5 grote_container">
