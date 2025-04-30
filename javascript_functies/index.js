@@ -63,6 +63,21 @@ const CSharp_kennis = `C# is momenteel mijn mist favoriete programmeertaal.
 
 `;
 
+const Git_kennis = `
+    Ik heb wel eens de applicatie versie geprobeerd van git, maar ik vind het command terminal fijner om mee te werken.
+
+    Ik ben bekend met het concept van branches. Vaak maak je voor een functie een branch, maar voor solo projectjes ga ik daar wat generieker mee om. 
+    De branches voor dit project zijn:
+    • content_updates
+    • db_users
+    • file_structure_tweaks
+    • main (de master branch)
+    • style_tweaks
+
+    Ook met Github kan ik prima werken :)
+    
+`;
+
 prog_talen.addEventListener('change', () => {
     switch (prog_talen.value) {
         case "html":
@@ -85,6 +100,9 @@ prog_talen.addEventListener('change', () => {
             break;
         case "c#":
             updateOutputs(CSharp_kennis, "./afbeeldingen/prog_talen/Csharp.png");
+            break;
+        case "git":
+            updateOutputs(Git_kennis, "./afbeeldingen/prog_talen/Git.png");
             break;
         default:
             updateOutputs(default_text, "./afbeeldingen/duck.gif");

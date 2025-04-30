@@ -105,6 +105,7 @@ $a = return_anchor($a);
                     <option value="javascript">Javascript</option>
                     <option value="mysql">MySQL</option>
                     <option value="c#">C#</option>
+                    <option value="git">Git</option>
                 </select>
             </div>
             <div>
