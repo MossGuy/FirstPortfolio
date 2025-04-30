@@ -41,7 +41,6 @@ check_session();
     <?PHP include './webelementen/navbar.php'; return_alert(); ?>
 
     <br>
-    <!-- <p><a href="./wie_ben_ik.php">Terug</a></p> -->
     <h2 class="border-bottom border-3">Statustieken voor nerds.</h2>
     
     <div class="card-group justify-content-center">
