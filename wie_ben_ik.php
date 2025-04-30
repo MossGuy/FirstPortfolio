@@ -44,7 +44,7 @@ check_session();
         <div>
             <h1>Wat meer informatie over mij</h1>
             <p>
-                Mijn volledige naam is Milan Pallas, en ik ben 25 jaar oud. <br>
+                Mijn volledige naam is Milan Pallas, en ik ben 24 jaar oud. <br>
                 Zie deze pagina als een zoort FAQ over mijzelf.
             </p>
         </div>
@@ -60,7 +60,7 @@ check_session();
                 <h2 class="no_shrink">Wat voor persoon ben ik?</h2>
                 <p class="text-wrap">
                     Ik ben van nature echt een introvert, je ziet mij zelden met een ander een praatje maken.<br>
-                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, enondersteuning en mijn interesse. 
+                    Bij het leren van nieuwe dingen ben ik erg afhangkelijk van documentatie, ondersteuning en mijn interesse. 
             </p>
             <p><a class="ms-auto me-auto" href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>

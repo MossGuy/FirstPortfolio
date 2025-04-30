@@ -1,3 +1,8 @@
+*------*
+Context:
+Dit webportfolio is gemaakt tijdens mijn tijd op het ROC van Twente.
+De eisen waaraan deze moest voldoen staan hierin overzichtelijk beschreven.
+
 *-----------*
 User stories:
   * Als gebruiker wil ik begroet worden met een inleiding zodat de gebruiker gelijk kan zien wie
