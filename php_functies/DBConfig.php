@@ -30,7 +30,7 @@ try {
     $_SESSION['DBStatus'] = false;
     $_SESSION['DBAttempt'] = false;
     $_SESSION['status'] = 'db_failed';
-    $_SESSION['weggeclicked'] = 'false';
+    $_SESSION['weggeclicked'] = false;
     header("Refresh:0");
 }
 

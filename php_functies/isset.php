@@ -12,7 +12,7 @@ if (isset($_POST['loguit'])) {
 }
 
 if (isset($_POST['close'])) {
-    $_SESSION['weggeclicked'] = 'true';
+    $_SESSION['weggeclicked'] = true;
     header('Refresh:0');
 }
 

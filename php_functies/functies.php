@@ -114,7 +114,7 @@ function loguit()
 function return_alert()
 {
     if (isset($_SESSION['status'])) {
-        if ($_SESSION['weggeclicked'] == 'false') {
+        if ($_SESSION['weggeclicked'] == false) {
             require_once('./webelementen/alert.php');
         }
     }
