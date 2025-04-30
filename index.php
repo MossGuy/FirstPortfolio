@@ -94,7 +94,7 @@ $a = return_anchor($a);
         </div>
         <!-- De tweede grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
-            <div>
+            <div class="overflow-hidden">
                 <label class="highlight fs-4 d-block text-center" for="prog_talen">Programmeer talen die ik ken</label>
                 <select class="button_css rounded p-2 fw-bold d-block mx-auto my-5" name="prog_talen" id="prog_talen">
                     <option value="default">ᕕ( ᐛ )ᕗ</option>
@@ -114,7 +114,7 @@ $a = return_anchor($a);
                     Probeer het eens uit!
                 </p>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center overflow-hidden">
                 <img id="cool_changing_logo1">
             </div>
         </div>
@@ -170,7 +170,7 @@ $a = return_anchor($a);
                     Probeer het eens uit!
                 </p>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center overflow-hidden">
                 <img id="cool_changing_logo2">
             </div>
         </div>
