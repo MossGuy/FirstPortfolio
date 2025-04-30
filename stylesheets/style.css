@@ -55,13 +55,16 @@ nav {
 }
 
 .kleuren_kiezer > form {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.15s linear;
     position: absolute;
     width: 100%;
 }
 
 .kleuren_kiezer:hover > form {
-    display: block;
+    visibility: visible;
+    opacity: 1;
     flex-direction: column;
 }
 

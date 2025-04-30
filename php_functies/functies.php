@@ -49,7 +49,7 @@ function link_kleurenthema()
 function return_login_button()
 {
     if (!$_SESSION['DBStatus']) {
-        echo '<form action="" method="POST"><input class="rounded m-1 fw-semibold button_css" type="submit" name="db_retry" id="db_retry" value="connect db"></form>';
+        echo '<form action="" method="POST"><input class="rounded m-1 fw-semibold button_css" type="submit" name="db_retry" id="db_retry" value="Verbind db"></form>';
     } else if (isset($_SESSION['loggedIn'])) {
         echo '<form action="" method="POST"><input class="rounded m-1 fw-semibold button_css" type="submit" name="loguit" id="loguit" value="Log uit"></form>';
     } else {
