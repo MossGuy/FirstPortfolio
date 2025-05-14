@@ -109,7 +109,7 @@ check_session();
                     <li>Pokémon tcg api reader *</li>
                     <li>Steen papier schaar web game</li>
                 </ul>
-                <p>* De repository van de Pokémon tcg api reader staat voor nu op private vanwege de api key die vermeld staat in het project.</p>
+                <p>* De repository van de Pokémon tcg api reader staat voor nu op private i.v.m de api key.</p>
                 <br>
             </div>
         </div>
@@ -173,7 +173,7 @@ check_session();
                     <li>Pokémon tcg api reader *</li>
                     <li>Steen papier schaar web game</li>
                 </ul>
-                <p>* De repository van de Pokémon tcg api reader staat voor nu op private vanwege de api key die vermeld staat in het project.</p>
+                <p>* De repository van de Pokémon tcg api reader staat voor nu op private i.v.m de api key.</p>
                 <br>
             </div>
         </div>
