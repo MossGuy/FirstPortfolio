@@ -170,8 +170,11 @@ check_session();
             <div>
                 <h2>Projecten waaraan ik heb gewerkt</h2>
                 <ul>
-                    <li><a href="">Pokémon kaarten bibliotheek</a></li>
+                    <li>Pokémon tcg api reader *</li>
+                    <li>Steen papier schaar web game</li>
                 </ul>
+                <p>* De repository van de Pokémon tcg api reader staat voor nu op private vanwege de api key die vermeld staat in het project.</p>
+                <br>
             </div>
         </div>
     </div>
