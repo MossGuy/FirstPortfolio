@@ -47,6 +47,9 @@ const kennisData = {
             Ik heb al veel ervaring met PHP, in samenwerking met HTML en SQL via PDO. Ik kan goed werken met functies, sessions en associative arrays.
             
             Het maken van een DBConfig is nog wat lastig te onthouden haha.
+
+            Daarnaas heb ik php oop leren gebruiken voor OOP (Object Oriented Programming).
+            Het concept van OOP is mij redelijk duidelijk maar ik heb er nog niet super veel mee gewerkt om te zeggen dat ik er comfortabel mee kan werken. 
         `,
         img: "./afbeeldingen/prog_talen/PHP.png"
     },
