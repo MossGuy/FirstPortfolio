@@ -7,7 +7,7 @@ if (!$_SESSION['DBAttempt']) {
 }
 
 $host = '127.0.0.1';
-$db   = 'db_portfolio_milan';
+$db   = 'milan_portfolio_db';
 // $user = 'bit_academy';
 // $pass = 'bit_academy';
 $user = 'root';
