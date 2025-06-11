@@ -4,7 +4,7 @@ require './php_functies/DBConfig.php';
 include './php_functies/functies.php';
 include './php_functies/isset.php';
 
-// check_session();
+check_session();
 ?>
 <!DOCTYPE html>
 <html lang="nl">
