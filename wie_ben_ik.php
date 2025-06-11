@@ -4,7 +4,7 @@ require './php_functies/DBConfig.php';
 include './php_functies/functies.php';
 include './php_functies/isset.php';
 
-check_session();
+// check_session();
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -99,17 +99,17 @@ check_session();
                 <ul>
                     <li><a href="./gevoelige_documenten/curriculum_vitae.pdf" target="_blank">Mijn CV</a></li>
                     <br>
-                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf" target="_blank">Diploma: ICT medewerker</a></li>
-                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf" target="_blank">Diploma: ICT beheerder</a></li>
+                    <li><a href=""role="button" data-bs-toggle="modal" data-bs-target="#documentsModal">Diploma: ICT medewerker</a></li>
+                    <li><a href="" role="button" data-bs-toggle="modal" data-bs-target="#documentsModal">Diploma: ICT beheerder</a></li>
                 </ul>
             </div>
             <div>
                 <h2>Projecten waaraan ik heb gewerkt</h2>
                 <ul>
-                    <li>Pokémon tcg api reader *</li>
+                    <li>Pokémon tcg api reader</li>
                     <li>Steen papier schaar web game</li>
                 </ul>
-                <p>* De repository van de Pokémon tcg api reader staat voor nu op private i.v.m de api key.</p>
+                <p>De repositories van deze projecten zijn te vinden op mijn <a href="https://github.com/MossGuy" target="_blank">Github</a></p>
                 <br>
             </div>
         </div>
@@ -163,22 +163,40 @@ check_session();
                 <ul>
                     <li><a href="./gevoelige_documenten/curriculum_vitae.pdf" target="_blank">Mijn CV</a></li>
                     <br>
-                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf" target="_blank">Diploma: ICT medewerker</a></li>
-                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf" target="_blank">Diploma: ICT beheerder</a></li>
+                    <li><a href=""role="button" data-bs-toggle="modal" data-bs-target="#documentsModal">Diploma: ICT medewerker</a></li>
+                    <li><a href="" role="button" data-bs-toggle="modal" data-bs-target="#documentsModal">Diploma: ICT beheerder</a></li>
                 </ul>
             </div>
             <div>
                 <h2>Projecten waaraan ik heb gewerkt</h2>
                 <ul>
-                    <li>Pokémon tcg api reader *</li>
+                    <li>Pokémon tcg api reader</li>
                     <li>Steen papier schaar web game</li>
                 </ul>
-                <p>* De repository van de Pokémon tcg api reader staat voor nu op private i.v.m de api key.</p>
+                <p>De repositories van deze projecten zijn te vinden op mijn <a href="https://github.com/MossGuy" target="_blank">Github</a></p>
                 <br>
             </div>
         </div>
     </div>
 
     <?PHP include './webelementen/footer.php' ?>
+
+
+    <!-- -------------------------- -->
+    <!-- Modal gevoelige documenten -->
+    <div id="documentsModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog bg-transparent">
+        <div class="modal-content">
+            <div class="modal-header border-2">
+                <h2 class="highlight">Ter informatie</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <div class="modal-body">
+                <p>Persoonlijke informatie, zoals mijn diploma's, staan vermeld op mijn Linkedin. </p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
